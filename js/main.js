@@ -1,1 +1,3 @@
-$('.slick-container').slick();
+$('.slick-container').slick({
+	arrows: true
+});

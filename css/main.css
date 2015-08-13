@@ -278,3 +278,51 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/* Custom */
+
+body {
+    background-color: #64b5f6;
+    color: white;
+    line-height: 1.85;
+}
+
+.slick-container {
+    background-color: white;
+    color: black;
+}
+
+.slick-arrow {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+    visibility: hidden;
+}
+
+.slick-next {
+    right: -10%;
+}
+
+.slick-prev {
+    left: -18%;
+}
+
+.slick-next:after {
+    visibility: visible;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    content: ">";
+}
+
+.slick-prev:after {
+    visibility: visible;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    content: "<";
+}
